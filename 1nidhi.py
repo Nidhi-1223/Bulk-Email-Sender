@@ -1,6 +1,7 @@
-# import email
+from re import M
 import PIL
 from PIL import ImageTk, Image
+# import tkinter as tk
 from tkinter import *
 
 
@@ -13,8 +14,6 @@ root.config(bg="powder blue")
 
 titleFrame = Frame(root)
 titleFrame.grid(row=0, column=0)
-
-# logoImage = PhotoImage(file= '../Bulk_Email_Sender/Assests/self_email_logo.png' )
 
 logo_old=PIL.Image.open('../Bulk-Email-Sender/Assests/self_email_logo.png')
 #logo_old = Image.open('../Bulk-Email-Sender/Assests/self_email_logo.png')
